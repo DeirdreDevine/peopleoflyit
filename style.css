@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {border:0; padding: 0; margin: 0;}
+
+body {
+	width: 100vw;
+	height: 400vw;
+}
+
+#container {
+	width: 100vw;
+	overflow: hidden;
+}
+
+/* -------------------PANEL STRUCTURE------------------*/
+
+.panel {
+	width: 100vw;
+	height: 100vh;
+}
+
+
+#panel1 {
+ 	background:url("Images/react.jpg") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+}
+
+#panel2 {
+	background:url("Images/martina.jpg") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+}
+
+#panel3 {
+	background:url("Images/bernie.jpg") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+}
+
+#panel4 {
+	background:url("Images/paul.jpg") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+}
+
+#panel5 {
+	background:url("Images/patrick.jpg") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+}
+
+#panel6 {
+	background:url("Images/cathal.jpg") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+}
+
+#panel7 {
+	background:url("Images/adam.jpg") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+}
+
+#panel8 {
+	background:url("Images/gwen.jpg") no-repeat center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+}
+
+br {
+	padding-top: 5px;
+}
+
+
+
+/* ------------Inner Panel Structure------------- */
+
+.inner-panel {
+	width: 300px;
+	overflow: hidden;
+	background:rgba(255,255,255,0.41);
+	border-radius: 25px;
+	padding: 30px;
+	position: relative;
+	top: 25vh;
+}
+
+.hidden {display: none;}
+
+.left {
+	float: left;
+	left: 6vw;
+}
+
+.right {
+	float: right;
+	right: 6vw;
+}
+
+
+/* ------------------Start Menu system----------------- */
+
+header {
+	position: fixed;
+	top: 20px;
+	left: 27%;
+	width: 830px;
+	height: 30px;
+	background:rgba(255,255,255,0.41);
+	border-radius: 25px;
+}
+
+ul {
+	text-align: center;
+	padding-top: 5px;
+	font-weight: 100;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+	display: inline;
+	margin-right: 15px;
+}
+
+/* -------------------------Type------------------------ */
+
+h1, h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:0;
+	font-size: 38px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 0;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+ul a {
+	color: black;
+	text-decoration: none;
+}
+
+audio {
+	padding-top: 15px;
+}
